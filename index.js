@@ -6,13 +6,15 @@ var cp = require('cp');
 var o = require('open');
 
 module.exports = function (pathToLayerFile, pathToBuildReport) {
-    var txt = fs.readFileSync(pathToLayerFile || 'dist/dojo/dojo.js', 'utf-8');
-    var reportTxt = fs.readFileSync(pathToBuildReport || 'dist/build-report.txt', 'utf-8');
+    pathToLayerFile = pathToLayerFile || 'dist/dojo/dojo.js';
+    pathToBuildReport = pathToBuildReport || 'dist/build-report.txt';
+    var txt = fs.readFileSync(pathToLayerFile, 'utf-8');
+    var reportTxt = fs.readFileSync(pathToBuildReport, 'utf-8');
 
     return {
         getModuleNames: function () {
             // returns a list of modules in the layer file as reported by the build-report.txt file
-            var modList = new RegExp("Layer Contents:[\\s\\S].*" + path.basename(pathToLayerFile, '.js') + ":([\\s\\S]*)\\n\\n")
+            var modList = new RegExp("Layer Contents:[\\s\\S].*" + path.basename(pathToLayerFile, '.js') + ":([\\s\\S]*?)\\n{2}")
                 .exec(reportTxt)[1].trim();
             var moduleNames = [];
 
@@ -84,7 +86,11 @@ module.exports = function (pathToLayerFile, pathToBuildReport) {
                 } else {
                     reg = new RegExp(start + '$');
                 }
-                var l = reg.exec(txt)[1].length;
+                var matches = reg.exec(txt);
+                if (!matches) {
+                    throw('regex failed for: ' + reg.source);
+                }
+                var l = matches[1].length;
                 child.size = l;
                 child.name = child.name + ' (' + l + ')';
             });

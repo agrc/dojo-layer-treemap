@@ -1,0 +1,1999 @@
+Build started: Thu Apr 16 2015 16:33:39 GMT-0600 (MDT)
+Build application version: 1.10.4 (37e1249)
+Messages:
+info(100) Assumed module uses legacy loader API.
+    module: dojox/jq
+    module: dojox/rails
+    module: dojox/data/ItemExplorer
+    module: dojox/data/StoreExplorer
+    module: dojox/data/restListener
+    module: dojox/drawing/plugins/drawing/Silverlight
+    module: dojox/flash/_base
+    module: dojox/help/_base
+    module: dojox/help/console
+    module: dojox/image/Gallery
+    module: dojox/image/SlideShow
+    module: dojox/image/ThumbnailPicker
+    module: dojox/jsonPath/query
+    module: dojox/lang/aspect
+    module: dojox/lang/async
+    module: dojox/lang/docs
+    module: dojox/lang/observable
+    module: dojox/lang/typed
+    module: dojox/lang/aspect/cflow
+    module: dojox/lang/aspect/counter
+    module: dojox/lang/aspect/memoizer
+    module: dojox/lang/aspect/memoizerGuard
+    module: dojox/lang/aspect/profiler
+    module: dojox/lang/aspect/timer
+    module: dojox/lang/aspect/tracer
+    module: dojox/lang/async/event
+    module: dojox/lang/async/timeout
+    module: dojox/lang/async/topic
+    module: dojox/lang/functional/binrec
+    module: dojox/lang/functional/curry
+    module: dojox/lang/functional/linrec
+    module: dojox/lang/functional/listcomp
+    module: dojox/lang/functional/multirec
+    module: dojox/lang/functional/numrec
+    module: dojox/lang/functional/tailrec
+    module: dojox/lang/functional/util
+    module: dojox/lang/functional/zip
+    module: dojox/lang/oo/Decorator
+    module: dojox/lang/oo/Filter
+    module: dojox/lang/oo/aop
+    module: dojox/lang/oo/general
+    module: dojox/lang/oo/mixin
+    module: dojox/lang/oo/rearrange
+    module: dojox/layout/BorderContainer
+    module: dojox/layout/dnd/Avatar
+    module: dojox/layout/dnd/PlottedDnd
+    module: dojox/layout/ext-dijit/layout/StackContainer-touch
+    module: dojox/mobile/app/AlertDialog
+    module: dojox/mobile/app/ImageThumbView
+    module: dojox/mobile/app/ImageView
+    module: dojox/mobile/app/List
+    module: dojox/mobile/app/ListSelector
+    module: dojox/mobile/app/SceneAssistant
+    module: dojox/mobile/app/SceneController
+    module: dojox/mobile/app/StageController
+    module: dojox/mobile/app/TextBox
+    module: dojox/mobile/app/_FormWidget
+    module: dojox/mobile/app/_Widget
+    module: dojox/mobile/app/_base
+    module: dojox/mobile/app/_event
+    module: dojox/mobile/app/compat
+    module: dojox/robot/recorder
+    module: dojox/secure/DOM
+    module: dojox/secure/capability
+    module: dojox/secure/fromJson
+    module: dojox/secure/sandbox
+    module: dojox/sql/_base
+    module: dojox/sql/_crypto
+    module: dojox/storage/AirDBStorageProvider
+    module: dojox/storage/AirEncryptedLocalStorageProvider
+    module: dojox/storage/AirFileStorageProvider
+    module: dojox/storage/BehaviorStorageProvider
+    module: dojox/storage/CookieStorageProvider
+    module: dojox/storage/FlashStorageProvider
+    module: dojox/storage/GearsStorageProvider
+    module: dojox/storage/LocalStorageProvider
+    module: dojox/storage/Provider
+    module: dojox/storage/WhatWGStorageProvider
+    module: dojox/storage/_common
+    module: dojox/storage/manager
+    module: dojox/widget/AnalogGauge
+    module: dojox/widget/BarGauge
+    module: dojox/widget/DataPresentation
+    module: dojox/widget/DocTester
+    module: dojox/widget/DynamicTooltip
+    module: dojox/widget/FeedPortlet
+    module: dojox/widget/FilePicker
+    module: dojox/widget/Iterator
+    module: dojox/widget/Loader
+    module: dojox/widget/RollingList
+    module: dojox/widget/SortList
+    module: dojox/widget/gauge/AnalogArcIndicator
+    module: dojox/widget/gauge/AnalogArrowIndicator
+    module: dojox/widget/gauge/AnalogNeedleIndicator
+    module: dojox/widget/gauge/BarIndicator
+    module: dojox/widget/gauge/_Gauge
+    module: dojox/wire/CompositeWire
+    module: dojox/wire/DataWire
+    module: dojox/wire/TableAdapter
+    module: dojox/wire/TextAdapter
+    module: dojox/wire/TreeAdapter
+    module: dojox/wire/Wire
+    module: dojox/wire/XmlWire
+    module: dojox/wire/_base
+    module: dojox/wire/ml/Action
+    module: dojox/wire/ml/Data
+    module: dojox/wire/ml/DataStore
+    module: dojox/wire/ml/Invocation
+    module: dojox/wire/ml/JsonHandler
+    module: dojox/wire/ml/RestHandler
+    module: dojox/wire/ml/Service
+    module: dojox/wire/ml/Transfer
+    module: dojox/wire/ml/XmlHandler
+    module: dojox/wire/ml/util
+    module: dojox/xmpp/ChatService
+    module: dojox/xmpp/PresenceService
+    module: dojox/xmpp/RosterService
+    module: dojox/xmpp/TransportSession
+    module: dojox/xmpp/UserService
+    module: dojox/xmpp/bosh
+    module: dojox/xmpp/sasl
+    module: dojox/xmpp/util
+    module: dojox/xmpp/xmppSession
+    module: dojox/xmpp/widget/ChatSession
+    module: ladda/Gruntfile
+    module: ladda/dist/ladda.min
+    module: ladda/dist/spin.min
+    module: ladda/js/prism
+    module: stubmodule/gruntfile
+info(106) Optimizing CSS.
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/locate/FindAddress.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/locate/FindGeneric.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/locate/FindRouteMilepost.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/locate/MagicZoom.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/locate/TRSsearch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/locate/ZoomToCoords.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/map/BaseMap.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/agrc/resources/map/BaseMapSelector.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/filters/resources/DateFilter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/filters/resources/FreeTypeFilter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/filters/resources/ListFilter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/filters/resources/ShapeFilter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/filters/resources/_Filter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/resources/App.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/resources/FilterContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/app/resources/vars.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/TouchScroll.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/columnset.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/dgrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/dgrid_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/extensions/ColumnHider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/extensions/ColumnReorder.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/extensions/ColumnResizer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/extensions/CompoundColumns.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/extensions/Pagination.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/cactus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/claro.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/nihilo.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/sage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/slate.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/soria.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/squid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dgrid/css/skins/tundra.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/icons/commonIcons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/icons/commonIcons_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/icons/editorIcons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/icons/editorIcons_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/dijit.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/dijit_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Calendar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/ColorPalette.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Dialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Dialog_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Editor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Editor_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/InlineEditBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Menu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Menu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/ProgressBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/TitlePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/TitlePane_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Toolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Toolbar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/Tree.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/claro.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/claro_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/document.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Button_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Checkbox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Common_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/NumberSpinner.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Select.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/form/Slider_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/layout/AccordionContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/layout/BorderContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/layout/ContentPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/layout/TabContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/claro/layout/TabContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Calendar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/ColorPalette.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Dialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Dialog_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Editor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Editor_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Menu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Menu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/ProgressBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/TimePicker_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/TitlePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/TitlePane_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Toolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Tree.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/Tree_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/nihilo.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/nihilo_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/Button_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/Checkbox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/Select.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/Slider_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/form/TimeTextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/layout/AccordionContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/layout/AccordionContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/layout/BorderContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/layout/ContentPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/layout/SplitContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/layout/TabContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/nihilo/layout/TabContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Calendar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/ColorPalette.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Dialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Dialog_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Editor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Editor_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Menu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Menu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/ProgressBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/TimePicker_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/TitlePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/TitlePane_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Toolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Tree.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/Tree_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/soria.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/soria_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/Button_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/Checkbox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/Select.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/Slider_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/form/TimeTextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/layout/AccordionContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/layout/AccordionContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/layout/BorderContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/layout/ContentPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/layout/SplitContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/layout/TabContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/soria/layout/TabContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Calendar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/ColorPalette.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Dialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Dialog_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Editor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Editor_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Menu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Menu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/ProgressBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/TimePicker_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/TitlePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/TitlePane_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Toolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Tree.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/Tree_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/tundra.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/tundra_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/form/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/form/Checkbox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/form/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/form/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/form/Select.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/form/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/form/Slider_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/layout/AccordionContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/layout/BorderContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/layout/ContentPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/layout/SplitContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/layout/TabContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dijit/themes/tundra/layout/TabContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojo/_firebug/firebug.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojo/resources/dnd.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojo/resources/dojo.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojo-bootstrap/assets/datepicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojo-bootstrap/assets/marquee.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/atom/widget/templates/css/EntryHeader.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/atom/widget/templates/css/HtmlFeedEntryEditor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/atom/widget/templates/css/HtmlFeedEntryViewer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/atom/widget/templates/css/HtmlFeedViewer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/atom/widget/templates/css/HtmlFeedViewerEntry.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/atom/widget/templates/css/HtmlFeedViewerGrouping.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/av/widget/resources/Player.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/calc/resources/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/calc/resources/GraphPro.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/calc/resources/Standard.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/charting/resources/Legend.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/drawing/resources/GreekPalette.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/drawing/resources/drawing.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/drawing/resources/toolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/editorPlugins.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/AutoSave.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/BidiSupport.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/BidiSupport_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/Blockquote.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/Breadcrumb.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/CollapsibleToolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/FindReplace.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/InsertAnchor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/InsertEntity.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/LocalImage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/PageBreak.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/PasteFromWord.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/Preview.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/SafePaste.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/Save.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/ShowBlockNodes.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/Smiley.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/SpellCheck.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/StatusBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/editor/plugins/resources/css/TextColor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/BusyButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/CheckedMultiSelect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/FileInput.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/FilePickerTextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/FileUploader.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/ListInput.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/RangeSlider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/Rating.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/TriStateCheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/form/resources/UploaderFileList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/gantt/resources/gantt.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/gauges/_Gauge.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/geo/charting/resources/Map.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Common_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/DnD.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/DnD_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/EnhancedGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/EnhancedGrid_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Filter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Filter_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Pagination.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Pagination_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Sorter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/Sorter_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/claroEnhancedGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/tundraEnhancedGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/claro/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/claro/EnhancedGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/claro/Filter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/tundra/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/tundra/EnhancedGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/tundra/Filter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/enhanced/resources/tundra/Sorter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/resources/Grid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/resources/Grid_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/resources/claroGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/resources/nihiloGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/resources/soriaGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/grid/resources/tundraGrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/highlight.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/autumn.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/borland.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/colorful.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/default.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/emacs.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/friendly.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/fruity.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/manni.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/murphy.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/native.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/pastie.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/perldoc.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/highlight/resources/pygments/trac.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/html/resources/ellipsis.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/Badge.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/Gallery.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/Lightbox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/LightboxNano.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/Magnifier.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/SlideShow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/ThumbnailPicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/image/resources/image.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/DndGridContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/ExpandoPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/FloatingPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/GridContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/RadioGroup.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/ResizeHandle.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/RotatorContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/ScrollPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/layout/resources/ToggleSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mdnd/resources/dnd.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Accordion-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Accordion.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Accordion_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Button-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Carousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Carousel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/CheckBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/CheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ComboBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ComboBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ComboBox_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/DatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/EdgeToEdgeCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/EdgeToEdgeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/FixedSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/FormLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/FormLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/GridLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/GridLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Heading-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Heading.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/IconContainer-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/IconContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/IconContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/IconMenu-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/IconMenu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/IconMenu_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/IconMenu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ListItem-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ListItem.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ListItem_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ListItem_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Opener-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Opener.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Overlay-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Overlay.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/PageIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/PageIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ProgressBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ProgressIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ProgressIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ProgressIndicator_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RadioButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RoundRectCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RoundRectCategory_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RoundRectList-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/RoundRectList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ScrollablePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SearchBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SearchBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SimpleDialog-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SimpleDialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Slider-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SpinWheel-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SpinWheel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SpinWheel_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/SpinWheel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Switch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Switch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Switch_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Switch_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TabBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TabBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TabBar_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TabBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TextArea-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TextArea.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TextBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ToggleButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ToggleButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ToggleButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ToolBarButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ToolBarButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ToolBarButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Tooltip-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/Tooltip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ValuePicker-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/ValuePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/View.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/android-app-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/android-app.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/android-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/android.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/android_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/android_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/base-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/base_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/base_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/common-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/dijit/Calendar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/android/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Accordion-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Accordion.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Accordion_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Button-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Carousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Carousel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/CheckBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/CheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ComboBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ComboBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ComboBox_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/DatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/EdgeToEdgeCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/EdgeToEdgeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/FixedSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/FormLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/FormLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/GridLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/GridLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Heading-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Heading.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/IconContainer-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/IconContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/IconContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/IconMenu-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/IconMenu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/IconMenu_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/IconMenu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ListItem-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ListItem.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ListItem_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ListItem_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Opener-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Opener.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Overlay-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Overlay.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/PageIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/PageIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ProgressBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ProgressIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ProgressIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ProgressIndicator_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RadioButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RoundRectCategory-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RoundRectCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RoundRectCategory_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RoundRectList-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/RoundRectList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ScrollablePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SearchBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SearchBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SimpleDialog-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SimpleDialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Slider-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SpinWheel-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SpinWheel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SpinWheel_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/SpinWheel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Switch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Switch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Switch_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Switch_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TabBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TabBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TabBar_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TabBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TextArea-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TextArea.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TextBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ToggleButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ToggleButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ToggleButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ToolBarButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ToolBarButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ToolBarButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Tooltip-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/Tooltip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ValuePicker-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/ValuePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/View.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/base-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/base_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/base_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/blackberry-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/blackberry.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/blackberry_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/blackberry_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/common-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/dijit/Calendar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/blackberry/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/IconContainer_keyframes.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/PageTurning.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/dijit/ColorPalette.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/dijit/ColorPicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/dijit/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/dijit/dijit.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackCircleCross-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackCircleCross.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackDownArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackDownArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackLeftArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackLeftArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackRightArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackRightArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackUpArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlackUpArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueBadge-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueBadge.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueBall-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueBall.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleMinus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleMinus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueCirclePlus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonBlueCirclePlus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOff-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOff.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOn-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOn.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonColorButtons-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonColorButtons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonDarkBlueCheck-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonDarkBlueCheck.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonDarkBlueCheck_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayArrow_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayArrow_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayCross-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayCross.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayKnob-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayKnob.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayMinus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayMinus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayPlus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayPlus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayRoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayRoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayStar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGrayStar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenBadge-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenBadge.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenBall-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenBall.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleMinus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleMinus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenCirclePlus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonGreenCirclePlus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonOrangeBall-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonOrangeBall.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedBadge-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedBadge.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedBall-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedBall.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCircleArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCircleArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCircleMinus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCircleMinus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCirclePlus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCirclePlus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCross-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonRedCross.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleDownArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleDownArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGrayButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGrayButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenPlus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenPlus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleOrangeButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleOrangeButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleRedCross-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleRedCross.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonTransparent19.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonTransparent29.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonTransparent30.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteCheck-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteCheck.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteCheck_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteCross-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteCross.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteLeftArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteLeftArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteMinus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteMinus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhitePlus-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhitePlus.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteRightArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteRightArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteSearch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteSearch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow16-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow16.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonYellowStar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/domButtons/DomButtonYellowStar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/cover.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/coverv.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/cube.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/dissolve.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/fade.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/flip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/reveal.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/revealv.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/scaleIn.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/scaleOut.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/slide.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/slidev.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/swap.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/swirl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/zoomIn.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/common/transitions/zoomOut.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Accordion-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Accordion.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Accordion_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Button-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Carousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Carousel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/CheckBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/CheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ComboBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ComboBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ComboBox_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/DatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/EdgeToEdgeCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/EdgeToEdgeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/FixedSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/FormLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/FormLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/GridLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/GridLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Heading-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Heading.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/IconContainer-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/IconContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/IconContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/IconMenu-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/IconMenu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/IconMenu_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/IconMenu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ListItem-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ListItem.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ListItem_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ListItem_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Opener-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Opener.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Overlay-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Overlay.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/PageIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/PageIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ProgressBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ProgressIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ProgressIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ProgressIndicator_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RadioButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RoundRectCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RoundRectCategory_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RoundRectList-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/RoundRectList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ScrollablePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SearchBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SearchBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SimpleDialog-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SimpleDialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Slider-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SpinWheel-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SpinWheel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SpinWheel_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/SpinWheel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Switch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Switch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Switch_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Switch_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TabBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TabBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TabBar_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TabBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TextArea-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TextArea.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TextBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ToggleButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ToggleButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ToggleButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ToolBarButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ToolBarButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ToolBarButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Tooltip-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/Tooltip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ValuePicker-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/ValuePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/View.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/base-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/base_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/base_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/common-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/custom-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/custom.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/custom_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/custom_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/dijit/Calendar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/custom/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Accordion-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Accordion.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Accordion_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Button-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Carousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Carousel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/CheckBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/CheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ComboBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ComboBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ComboBox_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/DatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/EdgeToEdgeCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/EdgeToEdgeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/FixedSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/FormLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/FormLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/GridLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/GridLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Heading-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Heading.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/IconContainer-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/IconContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/IconContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/IconMenu-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/IconMenu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/IconMenu_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/IconMenu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ListItem-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ListItem.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ListItem_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ListItem_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Opener-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Opener.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Overlay-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Overlay.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/PageIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/PageIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ProgressBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ProgressIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ProgressIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ProgressIndicator_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RadioButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RoundRectCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RoundRectCategory_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RoundRectList-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/RoundRectList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ScrollablePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SearchBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SearchBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SimpleDialog-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SimpleDialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Slider-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SpinWheel-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SpinWheel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SpinWheel_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/SpinWheel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Switch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Switch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Switch_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Switch_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TabBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TabBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TabBar_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TabBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TextArea-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TextArea.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TextBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ToggleButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ToggleButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ToggleButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ToolBarButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ToolBarButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ToolBarButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Tooltip-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/Tooltip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ValuePicker-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/ValuePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/View.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/android-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/android_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/base-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/base_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/base_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/common-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/holodark.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/holodark_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/dijit/Calendar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/holodark/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Accordion-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Accordion.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Accordion_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Button-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Carousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Carousel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/CheckBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/CheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ComboBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ComboBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ComboBox_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/DatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/EdgeToEdgeCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/EdgeToEdgeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/FixedSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/FormLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/FormLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/GridLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/GridLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Heading-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Heading.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/IconContainer-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/IconContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/IconContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/IconMenu-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/IconMenu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/IconMenu_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/IconMenu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ListItem-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ListItem.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ListItem_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ListItem_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Opener-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Opener.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Overlay-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Overlay.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/PageIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/PageIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ProgressBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ProgressIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ProgressIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ProgressIndicator_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RadioButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RoundRectCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RoundRectCategory_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RoundRectList-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/RoundRectList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ScrollablePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SearchBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SearchBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SimpleDialog-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SimpleDialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Slider-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SpinWheel-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SpinWheel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SpinWheel_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/SpinWheel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Switch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Switch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Switch_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Switch_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TabBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TabBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TabBar_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TabBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TextArea-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TextArea.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TextBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ToggleButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ToggleButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ToggleButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ToolBarButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ToolBarButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ToolBarButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Tooltip-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/Tooltip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ValuePicker-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ValuePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/View.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/android-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/android_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/base-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/base_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/base_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/common-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ios7.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/ios7_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/dijit/Calendar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/ios7/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Accordion-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Accordion.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Accordion_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Button-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Carousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Carousel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/CheckBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/CheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ComboBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ComboBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ComboBox_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/DatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/EdgeToEdgeCategory-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/EdgeToEdgeCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/EdgeToEdgeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/FixedSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/FormLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/FormLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/GridLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/GridLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Heading-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Heading.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/IconContainer-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/IconContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/IconContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/IconMenu-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/IconMenu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/IconMenu_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/IconMenu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ListItem-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ListItem.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ListItem_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ListItem_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Opener-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Opener.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Overlay-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Overlay.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/PageIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/PageIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ProgressBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ProgressIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ProgressIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ProgressIndicator_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RadioButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RoundRectCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RoundRectCategory_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RoundRectList-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/RoundRectList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ScrollablePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SearchBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SearchBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SimpleDialog-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SimpleDialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Slider-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SpinWheel-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SpinWheel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SpinWheel_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/SpinWheel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Switch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Switch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Switch_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Switch_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TabBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TabBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TabBar_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TabBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TextArea-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TextArea.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TextBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ToggleButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ToggleButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ToggleButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ToolBarButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ToolBarButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ToolBarButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Tooltip-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/Tooltip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ValuePicker-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ValuePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/View.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/base-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/base_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/base_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/common-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ipad-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/ipad.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/iphone-app-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/iphone-app.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/iphone-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/iphone.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/iphone_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/iphone_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/dijit/Calendar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/iphone/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Accordion-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Accordion.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Accordion_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Button-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Carousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Carousel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/CheckBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/CheckBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ComboBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ComboBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ComboBox_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/DatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/EdgeToEdgeCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/EdgeToEdgeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/FixedSplitter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/FormLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/FormLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/GridLayout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/GridLayout_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Heading-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Heading.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/IconContainer-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/IconContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/IconContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/IconMenu-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/IconMenu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/IconMenu_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/IconMenu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ListItem-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ListItem.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ListItem_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Opener-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Opener.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Overlay-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Overlay.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/PageIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/PageIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ProgressBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ProgressIndicator-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ProgressIndicator.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ProgressIndicator_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RadioButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RoundRect-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RoundRect.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RoundRectCategory.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RoundRectCategory_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RoundRectList-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/RoundRectList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ScrollablePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SearchBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SearchBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SimpleDialog-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SimpleDialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Slider-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SpinWheel-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SpinWheel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SpinWheel_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/SpinWheel_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Switch-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Switch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Switch_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Switch_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TabBar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TabBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TabBar_rtl-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TabBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TextArea-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TextArea.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TextBox-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ToggleButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ToggleButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ToggleButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ToolBarButton-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ToolBarButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ToolBarButton_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Tooltip-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/Tooltip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ValuePicker-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/ValuePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/View.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/base-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/base.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/base_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/common-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/windows-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/windows.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/windows_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/dijit/Calendar-compat.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/mobile/themes/windows/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/sketch/resources/sketch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/treemap/themes/DrillDownUp.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/treemap/themes/GroupLabel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/treemap/themes/MobileTreeMap.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/treemap/themes/TreeMap.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/Calendar/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/ColorPicker/ColorPicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/Dialog/Dialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/DocTester/DocTester.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/FilePicker/FilePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/FisheyeList/FisheyeList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/Loader/Loader.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/Pager/Pager.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/Portlet/Portlet.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/RollingList/RollingList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/SortList/SortList.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/TitleGroup/TitleGroup.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/Toaster/Toaster.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/UpgradeBar/UpgradeBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/dojox/widget/Wizard/Wizard.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/esri.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/jsapi.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/widgets-1.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/widgets-2.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/AnalysisPanel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/TreeExpand.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/calcite.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/Breadcrumb.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/DataBrowser.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/DataCategoriesPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/DataCollectionsPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/DataVariablesPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/Pagination.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/SearchTextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/ShoppingCart.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/css/calcite/geoenrichment/VariableInfo.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/ColorPicker/css/ColorPicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/FeatureTable/css/master.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/GeocodeMatch/css/master.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/GeocodeReview/css/master.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/HorizontalSlider/css/HorizontalSlider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/RendererSlider/css/RendererSlider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/Search/css/Search.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/SymbolStyler/css/ColorRampPicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/SymbolStyler/css/MarkerSymbolPicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/SymbolStyler/css/SymbolStyler.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/VisibleScaleRangeSlider/css/VisibleScaleRangeSlider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/analysis/css/analysis.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/analysis/css/helppopup.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/analysis/css/spacing.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/analysis/help/css/analysis.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/AttributeInspector.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/BasemapGallery.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/BasemapToggle.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Bookmarks.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/CalculateField.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Directions.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/DirectionsPrint.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/FontAlignment.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Form.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Gallery.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Gauge.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Geocoder.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/HomeButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/InfoWindow.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/LayerSwipe.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Legend.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/LocateButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Measurement.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/MosaicRule.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/MultidimensionalFilter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/MultidimensionalSlider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/OverviewMap.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Popup.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/PopupFont.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/PopupMobile.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Print.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/RenderingRule.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Scalebar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/SingleFilter.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/SymbolEditor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/Tags.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/TimeSlider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/VectorFieldRenderer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/css/temporal.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/editing/css/TemplatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/editing/css/drawingToolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/editing/css/editor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/AgePyramid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/Anim.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/BaseSelectComparison.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/BaseWidget.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/Breadcrumb.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/BufferOptions.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/DataBrowser.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/DataCategoriesPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/DataCollectionsPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/DataVariablesPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/Grid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/InfographicsCarousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/InfographicsMainPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/NotSupported.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/OneVar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/Pagination.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/RelatedVariables.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/SearchTextBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/ShoppingCart.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/Tapestry.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/VariableInfo.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/Wizard.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/common/main.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/AgePyramid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/BaseSelectComparison.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/BaseWidget.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/InfographicsCarousel.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/InfographicsMainPage.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/OneVar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/RelatedVariables.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/Tapestry.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/geoenrichment/themes/light/main.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-adaptor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-app-desktop.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-app.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-buttons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-dialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-dir-rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-dir.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-document.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-editor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-gemet.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-geoextent.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-icons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe-isotopic.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/dijit/metadata/css/gxe.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/AnalysisBrowseData.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/calcite.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/calcite_theme.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/demo-files/widgets.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/resources/buttons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/resources/loadingIndicators.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/AttributeInspector.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/BasemapGallery.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/BasemapToggle.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/Bookmarks.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/ColorPicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/EsriPopup.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/HomeLocateButtons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/HorizontalSlider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/LayerSwipe.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/Legend.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/Measurement.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/OverviewMap.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/TemplatePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/geocodeSearch.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/geocodeSimple.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/largeSliderZoomControls.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/simpleDirections.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/css/widgets/simpleSliderZoomControls.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Calcite_Buttons.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Calcite_Checkbox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Calcite_FormCommon.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Calcite_Menu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Calcite_Select.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Calendar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Calendar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/ColorPalette.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Dialog.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Dialog_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Editor.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Editor_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/InlineEditBox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Menu.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Menu_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/ProgressBar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/ProgressBar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/TimePicker.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/TimePicker_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/TitlePane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/TitlePane_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Toolbar.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Toolbar_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/Tree.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/calcite_dojo.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/calcite_dojo_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/dijit.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/dijit_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Button.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Button_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Checkbox.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Common.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Common_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/NumberSpinner.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/RadioButton.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Select.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Slider.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/form/Slider_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/layout/AccordionContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/layout/BorderContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/layout/ContentPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/layout/TabContainer.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/dijit/layout/TabContainer_rtl.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/icons/style.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/icons/demo-files/demo.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/themes/calcite/icons/ie7/ie7.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/esri/toolbars/css/edit.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/LoginRegister.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/UserAdmin.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/_LoginRegisterForgotPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/_LoginRegisterLogout.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/_LoginRegisterRequestPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/_LoginRegisterSignInPane.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/_UserAdminPendingUser.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/authentication/_UserAdminUser.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/resources/notify/ChangeRequest.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/themes/standard/CursorTip.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/themes/standard/layout/PaneStack.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ijit/themes/standard/layout/SideBarToggler.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/xstyle/shims.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/xstyle/ext/dgrid.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ladda-bootstrap/css/prism.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ladda-bootstrap/dist/ladda-themeless.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ladda-bootstrap/dist/ladda-themeless.min.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ladda-bootstrap/dist/ladda.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/ladda-bootstrap/dist/ladda.min.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/bootstrap-css-only/css/bootstrap-theme.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/bootstrap-css-only/css/bootstrap-theme.min.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/bootstrap-css-only/css/bootstrap.css
+    file: /Users/stdavis/Documents/Projects/ugs-chemistry/src/bootstrap-css-only/css/bootstrap.min.css
+info(107) Package Version:
+    package: agrc; version: 2.11.0
+    package: app; version: 0.2.0
+    package: dgrid; version: 0.3.17
+    package: dijit; version: 1.10.4
+    package: dojo; version: 1.10.4
+    package: dojo-bootstrap; version: 3.0.2
+    package: dojox; version: 1.10.4
+    package: esri; version: 3.13
+    package: ijit; version: 3.1.1
+    package: put-selector; version: 0.3.6
+    package: xstyle; version: 0.3.1
+    package: ladda; version: 0.8.0
+    package: mustache; version: 0.8.2
+    package: stubmodule; version: 0.6.1
+warn(205) Module not tagged as pure AMD yet it contains AMD API applications.
+    module: esri/themes/calcite/icons/demo-files/demo
+    module: esri/themes/calcite/icons/ie7/ie7
+    module: ijit/modules/Identify
+    module: ijit/modules/NumericInputValidator
+    module: ijit/modules/_ErrorMessageMixin
+    module: ijit/modules/_MustacheTemplateMixin
+    module: ijit/widgets/authentication/LoginRegister
+    module: ijit/widgets/authentication/UserAdmin
+    module: ijit/widgets/authentication/_LoginRegisterForgotPane
+    module: ijit/widgets/authentication/_LoginRegisterLogout
+    module: ijit/widgets/authentication/_LoginRegisterPaneMixin
+    module: ijit/widgets/authentication/_LoginRegisterRequestPane
+    module: ijit/widgets/authentication/_LoginRegisterSignInPane
+    module: ijit/widgets/authentication/_UserAdminPendingUser
+    module: ijit/widgets/authentication/_UserAdminUser
+    module: ijit/widgets/layout/PaneStack
+    module: ijit/widgets/layout/SideBarToggler
+    module: ijit/widgets/notify/ChangeRequest
+    module: ijit/widgets/upload/MultiFileUploader
+    module: ladda/dist/ladda
+    module: ladda/dist/spin
+    module: ladda/js/ladda
+    module: ladda/js/spin
+    module: mustache/mustache
+    module: spin/spin
+    module: stubmodule/src/stub-module
+warn(209) Missing or empty package.json.
+    filename: /Users/stdavis/Documents/Projects/ugs-chemistry/src/spinjs/package.json
+    filename: /Users/stdavis/Documents/Projects/ugs-chemistry/src/bootstrap-css-only/package.json
+warn(216) dojo/has plugin resource could not be resolved during build-time.
+    plugin resource id: web-workers?esri/geometry/geometryEngineAsync:esri/geometry/geometryEngine; reference module id: app/filters/ShapeFilter
+    plugin resource id: touch?./TouchScroll; reference module id: dgrid/List
+    plugin resource id: touch?./util/touch; reference module id: dgrid/Selection
+    plugin resource id: touch?./util/touch; reference module id: dgrid/tree
+    plugin resource id: touch?../util/touch; reference module id: dgrid/extensions/DnD
+    plugin resource id: touch?./_DnD-touch-autoscroll; reference module id: dgrid/extensions/DnD
+    plugin resource id: dojo-bidi?./_BidiMixin; reference module id: dijit/_WidgetBase
+    plugin resource id: dojo-firebug?./_firebug/firebug; reference module id: dojo/main
+    plugin resource id: dom-addeventlistener?:./aspect; reference module id: dojo/on
+    plugin resource id: host-browser?dom-addeventlistener?:../on:; reference module id: dojo/request/watch
+    plugin resource id: dojo-bidi?./bidi/Chart; reference module id: dojox/charting/Chart
+    plugin resource id: dojo-bidi?./bidi/Chart3D; reference module id: dojox/charting/Chart3D
+    plugin resource id: dojo-bidi?../bidi/action2d/ZoomAndPan; reference module id: dojox/charting/action2d/MouseZoomAndPan
+    plugin resource id: dojo-bidi?../bidi/action2d/Tooltip; reference module id: dojox/charting/action2d/Tooltip
+    plugin resource id: dojo-bidi?../bidi/action2d/ZoomAndPan; reference module id: dojox/charting/action2d/TouchZoomAndPan
+    plugin resource id: dojo-bidi?../bidi/axis2d/Default; reference module id: dojox/charting/axis2d/Default
+    plugin resource id: dojo-bidi?../bidi/widget/Chart; reference module id: dojox/charting/widget/Chart
+    plugin resource id: dojo-bidi?../bidi/widget/Legend; reference module id: dojox/charting/widget/Legend
+    plugin resource id: dojo-bidi?./bidi/_BidiMixin; reference module id: dojox/grid/DataGrid
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Accordion; reference module id: dojox/mobile/Accordion
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Badge; reference module id: dojox/mobile/Badge
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Button; reference module id: dojox/mobile/Button
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Carousel; reference module id: dojox/mobile/Carousel
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/CarouselItem; reference module id: dojox/mobile/CarouselItem
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/FormLayout; reference module id: dojox/mobile/FormLayout
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Heading; reference module id: dojox/mobile/Heading
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Icon; reference module id: dojox/mobile/Icon
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/IconItem; reference module id: dojox/mobile/IconItem
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/IconMenu; reference module id: dojox/mobile/IconMenu
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/ListItem; reference module id: dojox/mobile/ListItem
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/ProgressIndicator; reference module id: dojox/mobile/ProgressIndicator
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Rating; reference module id: dojox/mobile/Rating
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/RoundRectCategory; reference module id: dojox/mobile/RoundRectCategory
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/SimpleDialog; reference module id: dojox/mobile/SimpleDialog
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/SpinWheelSlot; reference module id: dojox/mobile/SpinWheelSlot
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/SwapView; reference module id: dojox/mobile/SwapView
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Switch; reference module id: dojox/mobile/Switch
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/TabBar; reference module id: dojox/mobile/TabBar
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/TabBarButton; reference module id: dojox/mobile/TabBarButton
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/TextBox; reference module id: dojox/mobile/TextBox
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/ToolBarButton; reference module id: dojox/mobile/ToolBarButton
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Tooltip; reference module id: dojox/mobile/Tooltip
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/TreeView; reference module id: dojox/mobile/TreeView
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/ValuePickerSlot; reference module id: dojox/mobile/ValuePickerSlot
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/_ComboBoxMenu; reference module id: dojox/mobile/_ComboBoxMenu
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/_StoreListMixin; reference module id: dojox/mobile/_DataListMixin
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/_ItemBase; reference module id: dojox/mobile/_ItemBase
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/_PickerBase; reference module id: dojox/mobile/_PickerBase
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/_StoreListMixin; reference module id: dojox/mobile/_StoreListMixin
+    plugin resource id: dojo-bidi?dojox/mobile/bidi/Scrollable; reference module id: dojox/mobile/scrollable
+    plugin resource id: dojo-parser?:dojo/_base/window; reference module id: dojox/mvc/parserExtension
+    plugin resource id: dojo-mobile-parser?:dojo/parser; reference module id: dojox/mvc/parserExtension
+    plugin resource id: dojo-parser?:dojox/mobile/parser; reference module id: dojox/mvc/parserExtension
+    plugin resource id: touch?dojox/gesture/tap; reference module id: dojox/treemap/DrillDownUp
+    plugin resource id: touch?dgrid/util/touch; reference module id: esri/dijit/analysis/tree
+warn(224) A plugin dependency was encountered but there was no build-time plugin resolver.
+    module: dijit/Fieldset; plugin: dojo/query
+    module: dijit/RadioMenuItem; plugin: dojo/query
+    module: dijit/Tree; plugin: dojo/query
+    module: dijit/form/_RadioButtonMixin; plugin: dojo/query
+    module: dojo/request; plugin: dojo/request/default
+    module: dojo/request/node; plugin: dojo/node
+    module: dojo/request/node; plugin: dojo/node
+    module: dojo/request/node; plugin: dojo/node
+    module: dojo/request/node; plugin: dojo/node
+    module: dojo/request/registry; plugin: dojo/request/default
+    module: dojox/mobile/DatePicker; plugin: dojox/mobile/_PickerChooser
+    module: dojox/mobile/TimePicker; plugin: dojox/mobile/_PickerChooser
+    module: dojox/store/LocalDB; plugin: dojox/store/db/has
+    module: esri/dijit/FeatureTable; plugin: dojo/query
+warn(226) A package without a profile could throw errors or warnings.
+    package: ladda-bootstrap
+    package: mustache
+    package: StubModule
+Layer Contents:
+dojo/dojo:
+    dojo/dojo
+    dojo/i18n
+    dojo/_base/kernel
+    dojo/has
+    dojo/_base/config
+    dojo/_base/array
+    dojo/_base/lang
+    dojo/sniff
+    dojo/_base/xhr
+    dojo/_base/sniff
+    dojo/io-query
+    dojo/dom
+    dojo/_base/window
+    dojo/dom-form
+    dojo/json
+    dojo/_base/Deferred
+    dojo/Deferred
+    dojo/errors/CancelError
+    dojo/errors/create
+    dojo/promise/Promise
+    dojo/promise/instrumentation
+    dojo/promise/tracer
+    dojo/Evented
+    dojo/aspect
+    dojo/on
+    dojo/when
+    dojo/_base/json
+    dojo/request/watch
+    dojo/request/util
+    dojo/errors/RequestError
+    dojo/errors/RequestTimeoutError
+    dojo/request/xhr
+    dojo/request/handlers
+    dojo/selector/_loader
+    dojo/domReady
+    app/run
+    dojo/parser
+    dojo/_base/url
+    dojo/promise/all
+    dojo/date/stamp
+    dojo/query
+    dojo/selector/acme
+    dojo/ready
+    app/App
+    app/config
+    esri/Color
+    dojo/_base/declare
+    dojo/_base/Color
+    esri/kernel
+    esri/config
+    dojo/topic
+    esri/symbols/SimpleFillSymbol
+    dojox/gfx/_base
+    dojo/dom-construct
+    dojo/dom-attr
+    dojo/dom-style
+    dojo/dom-prop
+    dojo/_base/connect
+    dojo/_base/event
+    dojo/dom-geometry
+    dojo/mouse
+    dojo/keys
+    esri/lang
+    dojo/date
+    dojo/number
+    dojo/cldr/nls/number
+    dojo/string
+    dojo/regexp
+    dojo/date/locale
+    dojo/cldr/supplemental
+    dojo/cldr/nls/gregorian
+    esri/symbols/FillSymbol
+    esri/symbols/Symbol
+    esri/symbols/SimpleLineSymbol
+    esri/symbols/LineSymbol
+    app/FilterContainer
+    app/filters/DateFilter
+    agrc/modules/Formatting
+    agrc/modules/String
+    dojo/currency
+    dojo/cldr/nls/currency
+    dojo/cldr/monetary
+    app/filters/_Filter
+    dijit/_TemplatedMixin
+    dojo/cache
+    dojo/text
+    dojo/request
+    dojo/request/default
+    dijit/_AttachMixin
+    dojo/touch
+    dojo/dom-class
+    dijit/_WidgetBase
+    dojo/Stateful
+    dijit/Destroyable
+    dijit/registry
+    dijit/main
+    dijit/_WidgetsInTemplateMixin
+    dojo/_base/query
+    dojo/_base/NodeList
+    dojo/_base/html
+    dojo/NodeList-dom
+    dojo-bootstrap/Collapse
+    dojo-bootstrap/Support
+    dojo/NodeList-data
+    dojo/NodeList-traverse
+    dojo-bootstrap/Datepicker
+    app/filters/templates/DateFilter.html
+    xstyle/css
+    xstyle/core/load-css
+    app/filters/resources/DateFilter.css
+    app/filters/FreeTypeFilter
+    app/filters/_RelatedTableQuery
+    app/filters/templates/FreeTypeFilter.html
+    app/filters/resources/FreeTypeFilter.css
+    app/filters/ListFilter
+    app/filters/templates/ListFilter.html
+    dojo-bootstrap/Button
+    dojo-bootstrap/Tooltip
+    dojo/html
+    dojo/NodeList-manipulate
+    app/filters/resources/ListFilter.css
+    app/filters/ShapeFilter
+    app/mapController
+    agrc/widgets/map/BaseMap
+    dojo/hash
+    dijit/form/Button
+    dijit/form/_FormWidget
+    dijit/_Widget
+    dijit/_OnDijitClickMixin
+    dijit/a11yclick
+    dijit/_FocusMixin
+    dijit/focus
+    dojo/window
+    dijit/a11y
+    dojo/uacss
+    dijit/hccss
+    dojo/hccss
+    dijit/_CssStateMixin
+    dijit/form/_FormWidgetMixin
+    dijit/form/_ButtonMixin
+    dijit/form/templates/Button.html
+    esri/geometry/Extent
+    esri/SpatialReference
+    esri/geometry/Geometry
+    esri/geometry/Point
+    esri/geometry/webMercatorUtils
+    esri/geometry/mathUtils
+    esri/layers/ArcGISTiledMapServiceLayer
+    esri/urlUtils
+    esri/sniff
+    esri/nls/jsapi
+    esri/layers/TiledMapServiceLayer
+    dojox/collections/ArrayList
+    dojox/collections/_base
+    dojox/gfx/matrix
+    esri/domUtils
+    esri/tileUtils
+    esri/geometry/Rect
+    esri/layers/layer
+    esri/Evented
+    esri/request
+    dojo/io/script
+    dojo/request/script
+    dojo/io/iframe
+    dojo/request/iframe
+    esri/deferredUtils
+    esri/layers/ArcGISMapServiceLayer
+    esri/layers/LayerInfo
+    esri/layers/TileInfo
+    esri/layers/LOD
+    esri/layers/TimeInfo
+    esri/TimeExtent
+    esri/layers/TimeReference
+    esri/layers/LayerTimeOptions
+    esri/layers/TileMap
+    esri/map
+    esri/_coremap
+    dojo/_base/unload
+    esri/basemaps
+    esri/fx
+    dojo/_base/fx
+    dojo/fx
+    esri/PluginTarget
+    esri/geometry/ScreenPoint
+    esri/geometry/scaleUtils
+    esri/WKIDUnitConversion
+    esri/geometry/screenUtils
+    esri/geometry/Polyline
+    esri/geometry/Polygon
+    esri/geometry/Multipoint
+    esri/layers/GraphicsLayer
+    dojox/gfx
+    dojox/gfx/renderer
+    esri/symbols/MarkerSymbol
+    esri/symbols/SimpleMarkerSymbol
+    esri/layers/MapImageLayer
+    esri/layers/OpenStreetMapLayer
+    esri/dijit/Popup
+    esri/InfoWindowBase
+    esri/PopupBase
+    esri/graphic
+    esri/InfoTemplate
+    esri/geometry/jsonUtils
+    esri/symbols/jsonUtils
+    esri/symbols/PictureMarkerSymbol
+    esri/symbols/CartographicLineSymbol
+    esri/symbols/PictureFillSymbol
+    esri/symbols/TextSymbol
+    esri/symbols/Font
+    esri/tasks/query
+    esri/tasks/SpatialRelationship
+    esri/plugins/popupManager
+    esri/PopupManager
+    esri/layerUtils
+    esri/MapNavigationManager
+    esri/MouseEvents
+    esri/TouchEvents
+    esri/PointerEvents
+    esri/toolbars/navigation
+    esri/toolbars/_toolbar
+    esri/undoManager
+    esri/OperationBase
+    spin/spin
+    agrc/widgets/map/BaseMapSelector
+    agrc/widgets/map/templates/BaseMapSelectorTemplate.htm
+    dojo/data/ItemFileReadStore
+    dojo/data/util/filter
+    dojo/data/util/simpleFetch
+    dojo/data/util/sorter
+    dijit/InlineEditBox
+    dijit/_Container
+    dijit/form/_TextBoxMixin
+    dijit/form/TextBox
+    dijit/form/_FormValueWidget
+    dijit/form/_FormValueMixin
+    dijit/form/templates/TextBox.html
+    dijit/templates/InlineEditBox.html
+    dijit/nls/common
+    dijit/form/ComboBox
+    dijit/form/ValidationTextBox
+    dijit/Tooltip
+    dijit/_base/manager
+    dijit/place
+    dijit/Viewport
+    dijit/BackgroundIframe
+    dijit/templates/Tooltip.html
+    dijit/form/templates/ValidationTextBox.html
+    dijit/form/nls/validate
+    dijit/form/ComboBoxMixin
+    dojo/store/util/QueryResults
+    dijit/form/_AutoCompleterMixin
+    dijit/form/DataList
+    dojo/store/Memory
+    dojo/store/util/SimpleQueryEngine
+    dijit/form/_SearchMixin
+    dijit/form/_ComboBoxMenu
+    dijit/form/_ComboBoxMenuMixin
+    dijit/form/nls/ComboBox
+    dijit/form/_ListMouseMixin
+    dijit/form/_ListBase
+    dijit/_HasDropDown
+    dijit/popup
+    dijit/form/templates/DropDownBox.html
+    agrc/widgets/map/_BaseMapSelector
+    agrc/widgets/map/ThemeInfo
+    agrc/widgets/map/resources/defaultThemeInfos
+    esri/layers/ArcGISDynamicMapServiceLayer
+    esri/layers/DynamicMapServiceLayer
+    dojox/xml/parser
+    esri/layers/MapImage
+    esri/layers/ImageParameters
+    esri/layers/DynamicLayerInfo
+    esri/layers/LayerMapSource
+    esri/layers/LayerSource
+    esri/layers/LayerDataSource
+    esri/layers/TableDataSource
+    esri/layers/DataSource
+    esri/layers/QueryDataSource
+    esri/layers/JoinDataSource
+    esri/layers/RasterDataSource
+    esri/layers/FeatureLayer
+    esri/renderers/SimpleRenderer
+    esri/renderers/Renderer
+    esri/renderers/UniqueValueRenderer
+    esri/renderers/jsonUtils
+    esri/renderers/ClassBreaksRenderer
+    esri/renderers/VectorFieldRenderer
+    esri/renderers/DotDensityRenderer
+    esri/renderers/ScaleDependentRenderer
+    esri/renderers/TimeClassBreaksAger
+    esri/renderers/SymbolAger
+    esri/renderers/TimeRampAger
+    esri/renderers/TemporalRenderer
+    esri/renderers/HeatmapRenderer
+    esri/tasks/QueryTask
+    esri/geometry/normalizeUtils
+    esri/tasks/Task
+    esri/tasks/FeatureSet
+    esri/graphicsUtils
+    esri/tasks/StatisticDefinition
+    esri/layers/Field
+    esri/layers/RangeDomain
+    esri/layers/Domain
+    esri/layers/CodedValueDomain
+    esri/layers/FeatureType
+    esri/layers/InheritedDomain
+    esri/layers/FeatureTemplate
+    esri/layers/FeatureEditResult
+    esri/layers/LabelClass
+    esri/symbols/ShieldLabelSymbol
+    esri/layers/SnapshotMode
+    esri/layers/RenderMode
+    esri/layers/OnDemandMode
+    esri/layers/GridLayout
+    esri/layers/SelectionMode
+    esri/layers/StreamMode
+    esri/layers/TrackManager
+    esri/layers/HeatmapManager
+    app/filters/templates/ShapeFilter.html
+    esri/tasks/AreasAndLengthsParameters
+    esri/tasks/GeometryService
+    esri/toolbars/draw
+    app/filters/resources/ShapeFilter.css
+    app/templates/FilterContainer.html
+    app/resources/FilterContainer.css
+    app/templates/App.html
+    ijit/widgets/authentication/LoginRegister
+    ijit/widgets/authentication/templates/LoginRegister.html
+    esri/IdentityManagerBase
+    dojo/cookie
+    esri/ServerInfo
+    esri/OAuthCredential
+    esri/arcgis/OAuthInfo
+    ijit/widgets/authentication/_LoginRegisterSignInPane
+    ijit/widgets/authentication/templates/_LoginRegisterSignInPane.html
+    ijit/widgets/authentication/_LoginRegisterPaneMixin
+    ladda/dist/ladda
+    ladda/dist/spin
+    ijit/widgets/authentication/_LoginRegisterRequestPane
+    ijit/widgets/authentication/templates/_LoginRegisterRequestPane.html
+    ijit/widgets/authentication/_LoginRegisterForgotPane
+    ijit/widgets/authentication/templates/_LoginRegisterForgotPane.html
+    ijit/widgets/authentication/_LoginRegisterLogout
+    ijit/widgets/authentication/templates/_LoginRegisterLogout.html
+    app/dojo-bootstrap-plugins
+    dojo-bootstrap/Modal
+    dijit/layout/StackContainer
+    dijit/layout/_LayoutWidget
+    dijit/_Contained
+    dijit/layout/ContentPane
+    dijit/layout/_ContentPaneResizeMixin
+    dijit/layout/utils
+    dijit/nls/loading
+    dojox/gfx/path
+    dojox/gfx/shape
+    dojox/gfx/svg
+
+ijit/widgets/authentication/UserAdmin:
+    ijit/widgets/authentication/UserAdmin
+    ijit/widgets/authentication/templates/UserAdmin.html
+    dgrid/OnDemandGrid
+    dgrid/Grid
+    put-selector/put
+    dgrid/List
+    dgrid/util/misc
+    xstyle/has-class
+    dgrid/css/dgrid.css
+    dgrid/OnDemandList
+    dgrid/_StoreMixin
+    ijit/widgets/authentication/_UserAdminPendingUser
+    ijit/widgets/authentication/templates/_UserAdminPendingUser.html
+    ijit/widgets/authentication/_UserAdminUser
+    ijit/widgets/authentication/templates/_UserAdminUser.html
+    ijit/modules/_ErrorMessageMixin
+
+
+
+Process finished normally
+    errors: 0
+    warnings: 100
+    build time: 88.619 seconds
