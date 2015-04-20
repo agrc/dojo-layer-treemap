@@ -1,4 +1,5 @@
 *.sublime-workspace
+.dojo-layer-treemap
 .DS_Store
 /node_modules/
 npm-debug.log

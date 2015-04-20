@@ -6,6 +6,7 @@ module.exports = function (grunt) {
     require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
+        clean: ['.dojo-layer-treemap'],
         jshint: {
             options: {
                 jshintrc: '.jshintrc',
@@ -18,7 +19,7 @@ module.exports = function (grunt) {
                 src: ['*.js']
             },
             test: {
-                src: ['test/**/*.js']
+                src: ['test/**/*.js', '!test/data/**/*.*']
             }
         },
         jscs: {
@@ -49,15 +50,15 @@ module.exports = function (grunt) {
             },
             js: {
                 files: '<%= jshint.js.src %>',
-                tasks: ['jshint:js', 'jscs:js', 'mochacli']
+                tasks: ['jshint:js', 'jscs:js', 'test']
             },
             test: {
                 files: '<%= jshint.test.src %>',
-                tasks: ['jshint:test', 'jshint:test', 'mochacli']
+                tasks: ['jshint:test', 'jshint:test', 'test']
             }
         }
     });
 
-    grunt.registerTask('default', ['jshint', 'jscs', 'mochacli', 'watch']);
-    grunt.registerTask('test', ['jshint', 'jscs', 'mochacli']);
+    grunt.registerTask('default', ['jshint', 'jscs', 'test', 'watch']);
+    grunt.registerTask('test', ['jshint', 'jscs', 'clean', 'mochacli']);
 };
