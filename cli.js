@@ -6,10 +6,18 @@ var dojoLayerTreemap = require('./');
 var cli = meow({
     help: [
         'Usage',
-        '  dojo-layer-treemap <path to layer file> <path to build-report.txt>',
+        '  dojo-layer-treemap <layer-file> <build-report>',
+        '',
+        '<layer-file>',
+        '  The path to the layer file that you want to analyze',
+        '  Defaults to: dist/dojo/dojo.js',
+        '',
+        '<build-report>',
+        '  Path to the build-report.txt file associated with the build',
+        '  Defaults to: dist/build-report.txt',
         '',
         'Example',
-        'dojo-layer-treemap dist/dojo/dojo.js dist/build-report.txt'
+        '  dojo-layer-treemap dist/dojo/dojo.js dist/build-report.txt'
     ].join('\n')
 });
 

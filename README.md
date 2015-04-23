@@ -2,15 +2,15 @@
 
 > CLI for generating treemaps showing the distribution of modules in your dojo layer file.
 
-## Work in progress!
+**Work in progress!**
 
 ## Install
 
 ```sh
 $ npm install -g dojo-layer-treemap
 $ dojo-layer-treemap --help
+$ dojo-layer-treemap dist/dojo/dojo.js dist/build-report.txt
 ```
-
 
 ## License
 
