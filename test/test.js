@@ -28,22 +28,20 @@ describe('dojo-layer-treemap node module', function () {
             var obj = tm.getTree(moduleNames);
 
             var numChildren = 0;
+            var totalSize = 0;
 
-            var getChildren = function (parent) {
-                if (parent.children) {
-                    parent.children.forEach(getChildren);
+            var getChildren = function (node) {
+                if (node.children) {
+                    node.children.forEach(getChildren);
                 } else {
                     numChildren += 1;
+                    totalSize += node.size;
                 }
             };
             getChildren(obj);
             assert.equal(numChildren, 61);
             assert.equal(obj.children[1].children[0].name, 'Deferred (2057)');
-        });
-    });
-    describe('main', function () {
-        it('doesn\'t choke', function () {
-            tm.main();
+            assert.equal(totalSize, 210571);
         });
     });
 });
