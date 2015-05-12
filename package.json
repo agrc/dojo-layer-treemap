@@ -1,6 +1,6 @@
 {
   "name": "dojo-layer-treemap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI for generating treemaps showing the distribution of the modules included in a dojo layer file.",
   "author": {
     "name": "Scott Davis",
